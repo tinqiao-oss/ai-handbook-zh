@@ -1,0 +1,5 @@
+node_modules/
+out/
+# 自己的素材 (出镜底片、人声、图片) 放这里, 默认不进 git
+**/public/media/
+.DS_Store

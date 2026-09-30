@@ -1,0 +1,28 @@
+{
+  "name": "newsroom-video-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "数据新闻风口播视频动效模板 (Remotion): 左侧版面 + 右侧人物, 元素按口播逐字对齐. 示例为一整期 7 分半的真实分镜",
+  "license": "MIT",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Ep32 out/ep32.mp4",
+    "still": "node tools/stills.mjs",
+    "typecheck": "tsc --noEmit",
+    "lines": "node tools/srt2lines.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/fonts": "4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "lucide-react": "^1.48.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.8",
+    "typescript": "5.8.3"
+  }
+}
